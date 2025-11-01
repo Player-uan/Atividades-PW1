@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Temperatura</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scrypt.js"></script>
+</head>
+
+<body>
+    <section class="background">
+        <div class="caixa-maior">
+            <h1 class="titulo">Conversor de Temperatura</h1>
+            <form class="caixa-menor" id="caixa-menor">
+                <div class="conversor-inputs">
+                    <label for="celsius">Celsius (°C): </label>
+                    <input type="number" id="celsius" name="celsius" step="0.1">
+
+                    <label for="fahrenheit">Fahrenheit (°F):</label>
+                    <input type="number" id="fahrenheit" name="fahrenheit" step="0.1">
+
+                    <label for="kelvin">Kelvin (K):</label>
+                    <input type="number" id="kelvin" name="kelvin" step="0.1">
+                </div>
+
+                <button class="button" type="button" onclick="converterTemperatura()">Converter</button>
+
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
